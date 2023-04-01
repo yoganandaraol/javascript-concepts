@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Streaming API Example</title>
+</head>
+
+<body>
+    <ul id="messages"></ul>
+
+    <script>
+        const messagesList = document.getElementById('messages');
+        const source = new EventSource('http://localhost:3000/stream');
+
+        // Handle incoming messages
+        source.onmessage = (event) => {
+            const message = JSON.parse(event.data);
+            const li = document.createElement('li');
+            li.textContent = message.data;
+            messagesList.appendChild(li);
+        };
+
+        source.onerror = (error) => {
+            console.error(error);
+        };
+
+    </script>
+</body>
+
+</html>
