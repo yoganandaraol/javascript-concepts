@@ -1,0 +1,30 @@
+{
+  "name": "javascript-concepts",
+  "version": "1.0.0",
+  "description": "javascripts concepts repo",
+  "main": "000-Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoganandaraol/javascript-concepts.git"
+  },
+  "keywords": [
+    "javascript",
+    "currying",
+    "asynchronus",
+    "promise",
+    "reactive-programming",
+    "observables"
+  ],
+  "author": "Yogananda  Rao Locherla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoganandaraol/javascript-concepts/issues"
+  },
+  "homepage": "https://github.com/yoganandaraol/javascript-concepts#readme",
+  "dependencies": {
+    "rxjs": "^7.8.0"
+  }
+}
