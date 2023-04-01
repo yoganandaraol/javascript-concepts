@@ -25,4 +25,10 @@ function outer() {
 const innerFn = outer();
 innerFn(); // Output: Hello Yoga!
 
-
+/*
+    The concept of closures can be used in 
+        1. Private Variables and functions
+        2. Paritial Application and Currying
+        3. Callback functions
+        4. Event Listners
+*/
